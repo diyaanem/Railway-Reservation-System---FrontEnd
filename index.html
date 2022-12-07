@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Indian Railways</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/logomain.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    
+    <!-- <div class="color-bar">
+        <center>
+            <button class="journey"><a href="#first-sec">Journey</a></button>
+        </center>
+    </div> -->
+    <div class="nav-first">
+    <div id="first-sec" class="navigation-bar">
+        <img src="images/logomain.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+               
+                <li><a class="white" href="contact.html">Contact</a></li>
+                <li><a class="white" href="https://www.irctc.co.in/nget/enquiry/alerts">Alerts</a></li>
+                <li><a class="white" href="#">Tourist Trains</a></li>
+                <li><a class="white" href="international.html">International Packages</a></li>
+                <li><a href="national.html">National Packages</a></li>
+            </ul>
+        </nav>
+    </div>
+    <body>
+       
+<!-- <marquee behavior="" direction=""><img src="images/train.png" alt=""></marquee> -->
+
+        
+        <!-- <div class="shape-custom">
+            <div class="custom-shape-divider-bottom-1670333733">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+                </svg>
+            </div> -->
+    
+   
+    <div class="first-section">
+        
+        <div class="text-left">
+            <form action="">
+            <div class="from-to">
+                <div class="text-top">
+                    <h3>From</h3>
+                    <h3>To</h3>
+                </div>
+                <div class="input-trains">
+                    <input class="booking" type="text" placeholder="Select Station/ City Name">
+                    <input class="booking" type="text" placeholder="Select Station/ City Name">
+                </div>
+                <div class="know-train">
+                    <br><br>
+                    <div class="text-top">
+                        <h3>I know my train (optional)</h3>
+                        
+                    </div>
+                    <br>
+                    <input class="booking" type="text" placeholder="Choose your train">
+
+                </div>
+                <br><br>
+                <div class="date-picker">
+                    <h3>Date</h3>
+                    <input class="booking" type="date" name="" id="">
+                </div>
+                <center>
+                <input class="submit-btn" type="submit" onclick="booked()" value="Confirm Booking">
+            </center>
+            </div>
+        </form>
+        </div>
+        <div class="login-right">
+            <h2 class="qlinks" style="padding-top: 10px;">Login</h2>
+            <h3 class="qlinks" style="padding-top: 1px;">Your credentials here</h3>
+            <div class="credentials" style="display: flex; flex-direction: column; margin-left: 20px; margin-right: 20px;">
+            <form action="">
+                <input class="cred" type="email" placeholder="Username">
+            <input class="cred" type="password" name="" id="" placeholder="Password">
+        </form>    
+        </div>
+            <div class="btns">
+                <form action="">
+                <input class="submit" type="submit" value="LOGIN">
+                <input type="reset" value="RESET" class="reset">
+            </form>
+        </div>
+    </div>
+    <div class="package">
+        
+        <div class="national-package">
+            <div class="white-box">
+                <center>
+                    <h3>
+                        <a href="national.html"> Explore National Packages</a>
+                    </h3>
+                </center>
+            </div>
+        </div>
+    
+    
+        <div class="international-package">
+            <div class="white-box">
+                <center>
+                    <h3>
+                        <a href="international.html">Explore International Packages</a>
+                    </h3>
+                </center>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</div>
+<div class="train-info-two"></div>
+<div class="train-info">
+    <h3>Train Information Services</h3>
+    <div class="main-info">
+        <div class="info-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/1034/1034693.png" alt=""><h3>Check PNR status</h3>
+        </div>
+        <div class="info-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2539/2539419.png" alt=""><h3>Live Train Status</h3>
+        </div>
+        <div class="info-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3267/3267610.png" alt=""><h3>View Train Coach Position</h3>
+        </div>
+        <div class="info-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2684/2684176.png" alt=""><h3>Check PNR status</h3>
+        </div>
+    </div>
+</div>
+
+<div class="train-info">
+    <h3>IRCTC Settings</h3>
+    <div class="main-info">
+        <a href="https://www.irctc.co.in/nget/profile/forgot-password?pageType=P">
+        <div class="info-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/IRCTC_Logo.svg/1200px-IRCTC_Logo.svg.png" alt=""><h3>Forgot IRCTC Password</h3>
+        </div>
+    </a>
+    <a href="https://www.irctc.co.in/nget/profile/forgot-password?pageType=P">
+        <div class="info-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/IRCTC_Logo.svg/1200px-IRCTC_Logo.svg.png" alt=""><h3>Forgot IRCTC ID</h3>
+        </div>
+    </a>
+        <a href="https://contents.irctc.co.in/en/userregistration.html">
+        <div class="info-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/IRCTC_Logo.svg/1200px-IRCTC_Logo.svg.png" alt=""><h3>Create IRCTC ID</h3>
+        </div>
+    </a>
+    
+        
+    </div>
+</div>
+</div>
+<br><br><br><br>
+<center>
+<h2>Have you not found the right one?</h2><h2 style="color: orange;">
+    Find a service suitable for you here.
+    </h2>
+</center>
+<div class="circle-text-main">
+<div class="second-body">
+    
+    <div class="circle">
+        
+        <img src="https://cdn-icons-png.flaticon.com/512/870/870143.png" alt="">
+        <p>Flights</p>
+    </div>
+    <div class="circle">
+        <img src="https://cdn-icons-png.flaticon.com/512/3009/3009489.png" alt="">
+        <p>Hotels</p>
+    </div>
+    <div class="circle">
+        <img src="https://cdn-icons-png.flaticon.com/512/404/404672.png" alt="">
+        <p>Rail Dristhi</p>
+    </div>
+    <div class="circle">
+        <img src="https://cdn-icons-png.flaticon.com/512/2918/2918221.png" alt="">
+        <p>Catering</p>
+    </div>
+    <div class="circle">
+        <img src="https://cdn-icons-png.flaticon.com/512/416/416597.png" alt="">
+        <p>Bus</p>
+    </div>
+    <div class="circle">
+        <img src="https://cdn-icons-png.flaticon.com/512/2990/2990532.png" alt="">
+        <p>Holiday Packages</p>
+    </div>
+    <div class="circle">
+        <img src="https://cdn-icons-png.flaticon.com/512/3016/3016045.png" alt="">
+        <p>Tourist Trains</p>
+    </div>
+    <div class="circle">
+        <img src="https://cdn-icons-png.flaticon.com/512/7758/7758931.png" alt="">
+        <p>Hill Railways</p>
+    </div>
+    
+
+    </div>
+    
+</div>
+
+<script src="app.js"></script>
+    </body>
+    <center>
+    <footer>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-tumblr"></i>
+            <i class="fa-brands fa-twitter"></i>
+            
+        </div>
+        <div class="about">
+            Copyright Ⓒ 2022 , All right are Reserved to devlopers
+: Roopesh Vetcha &
+Sri Krishna Uddala
+
+        </div>
+    </footer>
+</center>
+</html>
